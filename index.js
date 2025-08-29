@@ -16,10 +16,8 @@ app.post('/tshirt', (req, res) => {
         id: id,
         name: name
     })
-    res.json({ success: true, message: "successfull" })
 
 })
-
 
 app.listen(port, () => {
     console.log(`server runing on http://localhost:${port}`)
